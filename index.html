@@ -242,6 +242,241 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: visible;
+  padding-bottom: 100px;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.home-Hero-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.home-Hero-section__background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.00) 40%, rgba(14,31,54,0.06) 100%);
+  z-index: 1;
+}
+
+.home-Hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-Hero-section__content-card {
+  position: relative;
+  background: rgba(255,255,255,0.86);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230,230,230,0.9);
+  border-radius: 16px;
+  padding: 60px 50px;
+  max-width: 620px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+  color: var(--text-dark);
+}
+
+.home-Hero-section__card-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #C99A3A 0%, rgba(201,154,58,0) 100%);
+  border-radius: 0 0 0 16px;
+}
+
+.home-Hero-section__headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0;
+  color: #152C4B;
+  margin: 0 0 24px 0;
+}
+
+.home-Hero-section__subheadline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #152C4B;
+  margin: 0 0 32px 0;
+  opacity: 0.85;
+}
+
+.home-Hero-section__cta-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.home-Hero-section__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.home-Hero-section__btn--primary {
+  background: #C99A3A;
+  color: #FFFFFF;
+  border: 1px solid #C99A3A;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+
+.home-Hero-section__btn--primary:hover {
+  background: #B8892C;
+  border-color: #B8892C;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201,154,58,0.3);
+}
+
+.home-Hero-section__btn--secondary {
+  background: transparent;
+  color: #152C4B;
+  border: 1px solid #152C4B;
+}
+
+.home-Hero-section__btn--secondary:hover {
+  background: rgba(21,44,75,0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(21,44,75,0.15);
+}
+
+.home-Hero-section__btn-icon {
+  width: 12px;
+  height: 12px;
+  transition: transform 0.2s ease;
+}
+
+.home-Hero-section__btn--secondary:hover .home-Hero-section__btn-icon {
+  transform: translateX(3px);
+}
+
+.home-Hero-section__micro-line {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #6B7280;
+  margin: 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(201,154,58,0.2);
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  .home-Hero-section__container {
+    padding: 0 20px;
+    min-height: auto;
+  }
+  
+  .home-Hero-section__content-card {
+    padding: 40px 28px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__btn {
+    justify-content: center;
+    width: 100%;
+    padding: 14px 20px;
+  }
+  
+  .home-Hero-section__micro-line {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 80px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -298,46 +533,46 @@
 </head>
 <body>
 
-  <nav class="navbar"><button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg><svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg></button><button class="phone-header-btn" aria-label="Call"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></button><div class="nav-container"><div class="nav-brand"><a href="/" class="logo-link"><img src="/assets/mba-legal-services-logo.webp" alt="MBA" class="logo"></a></div><ul class="nav-menu" id="navMenu"><li><a href="/services">Services</a></li><li><a href="/about">About</a></li></ul><div class="nav-cta-container"><a href="/contact" class="nav-cta-btn">Contact</a></div></div></nav>
+  <nav class="navbar"><button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none"><path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg><svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display:none;"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg></button><button class="phone-header-btn" aria-label="Call"><svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></button><div class="nav-container"><div class="nav-brand"><a href="/" class="logo-link"><img src="/assets/mba-legal-services-logo.webp" alt="MBA" class="logo"></a></div><ul class="nav-menu" id="navMenu"><li><a href="/services">Services</a></li><li><a href="/about">About</a></li></ul><div class="nav-cta-container"><a href="/contact" class="nav-cta-btn">Contact</a></div></div></nav>
   
   <main>
-    <section class="home-hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-scrim" id="zappy-section-0" style="--zappy-bg-overlay: rgba(14, 31, 54, 0.2); --zappy-bg-image: url(&quot;assets/business-general-hero-upload-1772632208998.webp&quot;); background-image: linear-gradient(rgba(14, 31, 54, 0.2), rgba(14, 31, 54, 0.2)), url(&quot;assets/business-general-hero-upload-1772632208998.webp&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; position: relative; overflow: hidden;" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/business-general-hero-upload-1772632208998.webp" data-zappy-bg-overlay-color="#0e1f36" data-zappy-bg-overlay-opacity="20" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
-  <img data-hero-bg="true" data-placeholder="home-hero-bg" data-context="Professional family law office environment: elegant consultation room with soft natural light streaming through sheer curtains, warm wood desk with subtle leather details, calming neutral tones, sophisticated but approachable atmosphere, shallow depth of field, high-end architectural photography style" data-preserve-bg="0" width="1920" height="1080" src="/assets/site-home-hero-bg.webp" alt="MBA Family Law office consultation room" class="home-hero-bg zappy-editable-image" data-element-type="image" data-element-id="img-1772631860323-vb6tc7k5k" data-resize-handler-attached="true" style="display: none;" data-zappy-original-bg="hidden">
-  <div class="home-hero-scrim" data-zappy-gradient-scrim="true" data-zappy-scrim-orig-opacity="" style="opacity: 1; display: none;" data-zappy-original-bg="hidden"></div>
-  <div class="home-hero-content">
-    <div class="home-hero-overlay-card">
+    <section class="home-Hero-section" data-layout-spec="Home-Hero" data-zappy-section="true" data-hero-type="fullscreen-scrim">
+  <div class="home-Hero-section__background" style="background-image: url('assets/site-home-hero-bg.webp');  background-size: cover; background-position: center;"></div>
+  
+  <div class="home-Hero-section__container">
+    <div class="home-Hero-section__content-card">
+      <h1 class="home-Hero-section__headline">Calm, confident family law guidance.</h1>
       
-      <h1 data-element-id="move-1772632239444-rimyccp4" style="text-align: left;">Calm, confident family law guidance.</h1><h3>Professional advocacy with human understanding during divorce, custody, and complex family transitions.</h3>
-      <div class="home-hero-cta-group">
-        <a href="/contact" class="btn-primary" data-element-type="button" data-element-id="btn-1772631860321-oxfjqekbe" data-native-element="true">Request a consultation</a>
-        <a href="/services" class="btn-secondary" data-element-type="button" data-element-id="btn-1772631860321-j453nmy4q" data-native-element="true">
-          <span>Explore services</span>
-          <svg data-no-icon-edit="true" aria-hidden="true" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 6H10M10 6L6 2M10 6L6 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      <h3 class="home-Hero-section__subheadline">Professional advocacy with human understanding during divorce, custody, and complex family transitions.</h3>
+      
+      <div class="home-Hero-section__cta-group">
+        <a href="/contact" class="home-Hero-section__btn home-Hero-section__btn--primary">
+          Request a consultation
+        </a>
+        <a href="/services" class="home-Hero-section__btn home-Hero-section__btn--secondary">
+          <span class="home-Hero-section__btn-text">Explore services</span>
+          <svg class="home-Hero-section__btn-icon" width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6h10M7 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
       </div>
-      <p class="home-hero-micro-line" style="">Clear, discreet, and responsive communication.</p>
+      
+      <p class="home-Hero-section__micro-line">Clear, discreet, and responsive communication.</p>
+      
+      <div class="home-Hero-section__card-accent"></div>
     </div>
   </div>
-  <div class="home-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <div class="home-Hero-section__divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="marble-texture" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
-          <rect width="200" height="200" fill="#f5f7f9" opacity="0.3"></rect>
-          <path d="M20,50 Q40,30 60,50 T100,50 Q120,70 140,50 T180,50" stroke="#e5e7eb" stroke-width="0.5" fill="var(--bg-light)" opacity="0.4"></path>
-          <path d="M10,80 Q30,60 50,80 T90,80 Q110,100 130,80 T170,80" stroke="#e5e7eb" stroke-width="0.5" fill="var(--bg-light)" opacity="0.3"></path>
-          <circle cx="50" cy="100" r="1" fill="#c2a67a" opacity="0.2"></circle>
-          <circle cx="150" cy="150" r="1" fill="#c2a67a" opacity="0.2"></circle>
-        </pattern>
-        <linearGradient id="fade-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" style="stop-color:#f5f7f9;stop-"></stop>
-          <stop offset="100%" style="stop-color:#f5f7f9;stop-opacity:1"></stop>
+        <linearGradient id="marbleFade" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#D9D9D9;stop-opacity:0.4"></stop>
+          <stop offset="100%" style="stop-color:#F2F2F2;stop-opacity:1"></stop>
         </linearGradient>
       </defs>
-      <rect width="1200" height="100" fill="url(#marble-texture)"></rect>
-      <rect width="1200" height="100" fill="url(#fade-gradient)"></rect>
-      <line x1="80" y1="98" x2="1120" y2="98" stroke="#c2a67a" stroke-width="1" opacity="0.4"></line>
+      <path d="M0,100 L0,20 Q200,18 400,22 T800,18 Q1000,20 1200,22 L1200,100 Z" fill="var(--bg-light)"></path>
+      <line x1="0" y1="100" x2="1200" y2="100" stroke="#C99A3A" stroke-width="1"></line>
     </svg>
   </div>
 </section>
@@ -353,7 +588,7 @@
     <div class="home-services-grid">
       <article class="home-services-card">
         <div class="home-services-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 5L20 35M5 20L35 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
             <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
           </svg>
@@ -364,7 +599,7 @@
       
       <article class="home-services-card">
         <div class="home-services-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 8C20 8 12 12 12 20C12 24 14 28 20 32C26 28 28 24 28 20C28 12 20 8 20 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"></path>
             <circle cx="20" cy="20" r="3" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
           </svg>
@@ -375,7 +610,7 @@
       
       <article class="home-services-card">
         <div class="home-services-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 20L16 28L32 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
           </svg>
@@ -387,7 +622,7 @@
   </div>
   
   <div class="home-services-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="home-services-divider-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:var(--accent);stop-"></stop>
@@ -432,7 +667,7 @@
     </div>
   </div>
   <div class="home-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1200,120 L1200,0 Q1150,15 1100,8 Q1050,0 1000,12 Q950,20 900,8 Q850,0 800,15 Q750,25 700,12 Q650,0 600,18 Q550,28 500,15 Q450,5 400,20 Q350,30 300,18 Q250,8 200,22 Q150,32 100,20 Q50,10 0,25 L0,120 Z" fill="#1a2238"></path>
     </svg>
   </div>
@@ -470,7 +705,7 @@
   </div>
   
   <div class="home-testimonials-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,45 Q100,35 200,45 T400,45 Q500,35 600,45 T800,45 Q900,35 1000,45 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path>
       <path d="M0,45 Q100,35 200,45 T400,45 Q500,35 600,45 T800,45 Q900,35 1000,45 T1200,45" stroke="var(--accent)" stroke-width="1" fill="var(--bg-light)"></path>
     </svg>

@@ -4696,6 +4696,242 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (Home-Hero)
+   Added: 2026-03-04T13:53:03.632Z
+   ═══════════════════════════════════════════════════════════ */
+.home-Hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: visible;
+  padding-bottom: 100px;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.home-Hero-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.home-Hero-section__background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.00) 40%, rgba(14,31,54,0.06) 100%);
+  z-index: 1;
+}
+
+.home-Hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-Hero-section__content-card {
+  position: relative;
+  background: rgba(255,255,255,0.86);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230,230,230,0.9);
+  border-radius: 16px;
+  padding: 60px 50px;
+  max-width: 620px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+  color: var(--text-dark);
+}
+
+.home-Hero-section__card-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #C99A3A 0%, rgba(201,154,58,0) 100%);
+  border-radius: 0 0 0 16px;
+}
+
+.home-Hero-section__headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0;
+  color: #152C4B;
+  margin: 0 0 24px 0;
+}
+
+.home-Hero-section__subheadline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #152C4B;
+  margin: 0 0 32px 0;
+  opacity: 0.85;
+}
+
+.home-Hero-section__cta-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.home-Hero-section__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.home-Hero-section__btn--primary {
+  background: #C99A3A;
+  color: #FFFFFF;
+  border: 1px solid #C99A3A;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+
+.home-Hero-section__btn--primary:hover {
+  background: #B8892C;
+  border-color: #B8892C;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201,154,58,0.3);
+}
+
+.home-Hero-section__btn--secondary {
+  background: transparent;
+  color: #152C4B;
+  border: 1px solid #152C4B;
+}
+
+.home-Hero-section__btn--secondary:hover {
+  background: rgba(21,44,75,0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(21,44,75,0.15);
+}
+
+.home-Hero-section__btn-icon {
+  width: 12px;
+  height: 12px;
+  transition: transform 0.2s ease;
+}
+
+.home-Hero-section__btn--secondary:hover .home-Hero-section__btn-icon {
+  transform: translateX(3px);
+}
+
+.home-Hero-section__micro-line {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #6B7280;
+  margin: 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(201,154,58,0.2);
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  .home-Hero-section__container {
+    padding: 0 20px;
+    min-height: auto;
+  }
+  
+  .home-Hero-section__content-card {
+    padding: 40px 28px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__btn {
+    justify-content: center;
+    width: 100%;
+    padding: 14px 20px;
+  }
+  
+  .home-Hero-section__micro-line {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 80px;
+  }
+}
+
 /* ========== NAV CONTAINER MIN-HEIGHT FIX (nav-container-min-height-fix) ========== */
 /* On mobile, all nav children are position:absolute/fixed (out of flow), */
 /* so height:auto collapses to 0px. min-height ensures the navbar is visible. */
